@@ -2,7 +2,7 @@ import { galleryItems } from './gallery-items.js';
 // Change code below this line
 
 const list = document.querySelector('.gallery');
-// const gelleryCards = markup(galleryItems);
+
 
 const markup = galleryItems
     .map(({ preview, original, description }) => {
